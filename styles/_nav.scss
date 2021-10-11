@@ -1,0 +1,28 @@
+.nav {
+    padding-top: 30px;
+    max-width: 864px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &__logo {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.25px;
+        font-family: 'Aldrich', sans-serif;
+    }
+
+    &__ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__li {
+        color: inherit;
+        margin-right: 35px;
+        text-decoration: none;
+    }
+}
