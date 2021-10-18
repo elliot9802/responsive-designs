@@ -1,5 +1,5 @@
 .patagonia {
-    padding-top: 50px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -11,18 +11,18 @@
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 90px;
-        line-height: 102px;
+        font-size: 36px;
+        line-height: 40px;
         letter-spacing: -2px;
         text-align: center;
     }
 
     &__p {
-        margin-top: 30px;
+        width: 256px;
         text-align: center;
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 22px;
-        align-items: center;
-        line-height: 33px;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 25px auto;
     }
 }
